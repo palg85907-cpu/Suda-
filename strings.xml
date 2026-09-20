@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Suda</string>
-    <string name="tagline">Offline chat • इंटरनेट के बिना</string>
+    <string name="tagline">Offline chat • No internet</string>
     <string name="features">Multi-Hop Relay • Photo/File Transfer • Hindi/English • Auto Bluetooth</string>
-    <string name="find_devices">🔵 Auto Connect / डिवाइस खोजें</string>
-    <string name="language_button">English</string>
-    <string name="send">भेजें</string>
-    <string name="send_file">📎 फोटो / वीडियो / फाइल भेजें</string>
-    <string name="message_hint">बिना नेट मैसेज लिखें…</string>
-    <string name="status_disconnected">स्टेटस: डिस्कनेक्टेड</string>
-    <string name="status_searching">स्टेटस: आसपास के डिवाइस खोजे जा रहे हैं…</string>
-    <string name="status_connected_one">स्टेटस: 1 डिवाइस कनेक्टेड</string>
-    <string name="status_connected_many">स्टेटस: %1$d डिवाइस कनेक्टेड</string>
-    <string name="status_error">त्रुटि: %1$s</string>
-    <string name="no_connection">पहले किसी nearby Suda device से कनेक्ट हों</string>
-    <string name="welcome_message">Suda शुरू करें। पास के Suda users से connect होकर offline chat करें, और फोटो/फाइल भेजें।
+    <string name="find_devices">🔵 Auto Connect / Find Devices</string>
+    <string name="language_button">हिंदी</string>
+    <string name="send">Send</string>
+    <string name="send_file">📎 Send Photo / Video / File</string>
+    <string name="message_hint">Type an offline message…</string>
+    <string name="status_disconnected">Status: Disconnected</string>
+    <string name="status_searching">Status: Searching for nearby devices…</string>
+    <string name="status_connected_one">Status: 1 device connected</string>
+    <string name="status_connected_many">Status: %1$d devices connected</string>
+    <string name="status_error">Error: %1$s</string>
+    <string name="no_connection">Connect to a nearby Suda device first</string>
+    <string name="welcome_message">Start Suda. Connect to nearby Suda users for offline chat, photos and files.
 
-Dynamic Multi-Hop Relay: कोई fixed hop limit नहीं। उपलब्ध Suda devices के जरिए message आगे जा सकता है। Relay network को 10 मिनट का TTL और duplicate protection नियंत्रित करता है।</string>
-    <string name="relay_info">Dynamic Relay: कोई fixed hop limit नहीं • 10 मिनट TTL • इंटरनेट जरूरी नहीं</string>
-    <string name="searching_message">Suda आसपास के compatible devices खोज रहा है… Bluetooth ON न हो तो Android confirmation दिखेगा।</string>
-    <string name="connected_message">एक nearby Suda device जुड़ गया।</string>
-    <string name="disconnected_message">एक device disconnect हो गया।</string>
-    <string name="friend_prefix">मित्र:</string>
-    <string name="me_prefix">मैं:</string>
-    <string name="incoming_file">फाइल आ रही है:</string>
-    <string name="sent_file">फाइल भेजी गई:</string>
-    <string name="received_file">फाइल प्राप्त हुई:</string>
-    <string name="send_error">मैसेज नहीं भेजा गया: %1$s</string>
-    <string name="file_open_error">फाइल खोलने में दिक्कत हुई।</string>
-    <string name="file_send_error">फाइल नहीं भेजी गई: %1$s</string>
-    <string name="file_receive_error">फाइल सेव नहीं हुई: %1$s</string>
-    <string name="permissions_ok">Permissions मिल गईं। अब Connect दबाएँ।</string>
-    <string name="permissions_needed">Suda को nearby devices के लिए permissions चाहिए।</string>
+Dynamic Multi-Hop Relay: no fixed hop limit. Messages can be forwarded through available Suda devices with a 10-minute relay TTL and duplicate protection.</string>
+    <string name="relay_info">Dynamic Relay: no fixed hop limit • 10-minute TTL • No internet required</string>
+    <string name="searching_message">Suda is searching for compatible nearby devices… Android may ask you to turn Bluetooth on.</string>
+    <string name="connected_message">A nearby Suda device connected.</string>
+    <string name="disconnected_message">A device disconnected.</string>
+    <string name="friend_prefix">Friend:</string>
+    <string name="me_prefix">Me:</string>
+    <string name="incoming_file">Incoming file:</string>
+    <string name="sent_file">File sent:</string>
+    <string name="received_file">File received:</string>
+    <string name="send_error">Message was not sent: %1$s</string>
+    <string name="file_open_error">Could not open the file.</string>
+    <string name="file_send_error">File was not sent: %1$s</string>
+    <string name="file_receive_error">File was not saved: %1$s</string>
+    <string name="permissions_ok">Permissions granted. Tap Connect.</string>
+    <string name="permissions_needed">Suda needs nearby-device permissions.</string>
 </resources>
