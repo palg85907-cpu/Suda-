@@ -33,7 +33,7 @@ jobs:
           PROJECT=$(dirname "$(find /tmp/suda -name settings.gradle -o -name settings.gradle.kts | head -n 1)")
           cd "$PROJECT"
           chmod +x gradlew || true
-          gradle assembleDebug
+          ./gradlew assembleDebug --no-daemon --stacktrace || gradle assembleDebug --no-daemon
 
       - name: Upload Suda APK
         uses: actions/upload-artifact@v4
